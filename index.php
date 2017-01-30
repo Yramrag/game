@@ -34,5 +34,5 @@ else if ($_SESSION['user']['login']) {
     $user = new Cuser();
     echo $user->common($connect);
 }
-
+//comment
 ?>
